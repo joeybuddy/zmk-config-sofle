@@ -82,6 +82,7 @@
 &trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
+            display-name = "MEDIA";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -93,6 +94,9 @@
 &trans           &trans           &trans           &trans           &trans           &out OUT_BLE       &trans  &trans       &trans        &trans  &trans  &trans          &trans
 &trans           &trans           &trans           &trans           &trans           &bootloader        &trans  &bootloader  &trans        &trans  &trans  &trans
             >;
+
+            display-name = "SETTING";
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
