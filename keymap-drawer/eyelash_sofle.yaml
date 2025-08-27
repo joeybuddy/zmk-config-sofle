@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  LAYER0:
+  BASE:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -52,20 +52,20 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - layer1
+  - EXTENDED
   - $$mdi:volume-off$$
-  - SETTING
+  - '3'
   - $$mdi:apple-keyboard-option$$
   - LGUI
   - $$mdi:keyboard-space$$
-  - layer1
+  - EXTENDED
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - RGUI
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  layer1:
+  EXTENDED:
   - F11
   - F1
   - F2
@@ -195,13 +195,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  SETTING:
+  '3':
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
