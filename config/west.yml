@@ -6,6 +6,8 @@ manifest:
           # See:
           # - https://zmk.dev/docs/features/modules
           # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
+        - name: m165437
+          url-base: https://github.com/M165437
     #  - name: gpeye
     #    url-base: https://github.com/GPeye
     projects:
@@ -17,5 +19,8 @@ manifest:
           remote: zmkfirmware
           revision: main
           import: app/west.yml
+        - name: nice-view-gem
+          remote: m165437
+          revision: main
     self:
         path: boards

@@ -61,11 +61,11 @@
 
         layer_0 {
             bindings = <
-&kp GRAVE      &kp N1  &kp N2             &kp N3    &kp N4       &kp N5           &kp UP_ARROW     &kp N6     &kp N7       &kp N8     &kp N9              &kp N0    &kp BACKSPACE
-&kp TAB        &kp Q   &kp W              &kp E     &kp R        &kp T            &kp DOWN_ARROW   &kp Y      &kp U        &kp I      &kp O               &kp P     &kp BSLH
+&kp GRAVE      &kp N1  &kp N2             &kp N3    &kp N4       &kp N5           &kp UP_ARROW     &kp N6     &kp N7       &kp N8     &kp N9              &kp N0    &kp BACKSLASH
+&kp TAB        &kp Q   &kp W              &kp E     &kp R        &kp T            &kp DOWN_ARROW   &kp Y      &kp U        &kp I      &kp O               &kp P     &kp BACKSPACE
 &mt LCTRL ESC  &kp A   &rpi LEFT_SHIFT S  &kp D     &kp F        &kp G            &kp LEFT_ARROW   &kp H      &kp J        &kp K      &rpi RIGHT_SHIFT L  &kp SEMI  &kp APOS
 &kp LSHFT      &kp Z   &kp X              &kp C     &kp V        &kp B            &kp RIGHT_ARROW  &kp N      &kp M        &kp COMMA  &kp DOT             &kp FSLH  &kp RIGHT_SHIFT
-&kp C_MUTE     &mo 2   &kp LALT           &kp LGUI  &lt 1 SPACE  &kp BACKSPACE    &kp ENTER        &kp ENTER  &lt 1 SPACE  &kp RGUI   &mo 1               &mo 3
+&kp C_MUTE     &mo 2   &kp LALT           &kp LGUI  &lt 1 SPACE  &kp BACKSPACE    &kp ENTER        &kp ENTER  &lt 1 SPACE  &kp RGUI   &mo 2               &mo 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -74,11 +74,11 @@
 
         layer_1 {
             bindings = <
-&kp F11  &kp F1  &kp F2    &kp F3          &kp F4         &kp F5    &mmv MOVE_UP     &kp F6     &kp F7    &kp F8            &kp F9             &kp F10    &kp F12
-&trans   &trans  &kp HOME  &kp UP          &kp PAGE_UP    &trans    &mmv MOVE_DOWN   &kp PG_UP  &kp END   &kp UP            &kp HOME           &kp EQUAL  &trans
-&trans   &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &trans    &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN          &kp RIGHT          &kp MINUS  &trans
-&trans   &trans  &kp END   &trans          &kp PAGE_DOWN  &trans    &mmv MOVE_RIGHT  &trans     &trans    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans     &trans
-&trans   &trans  &trans    &trans          &trans         &trans    &mkp LCLK        &trans     &trans    &trans            &trans             &trans
+&kp F11  &kp F1  &kp F2    &kp F3          &kp F4         &kp F5    &mmv MOVE_UP     &kp F6          &kp F7           &kp F8            &kp F9             &kp F10    &kp F12
+&trans   &trans  &kp HOME  &kp UP          &kp PAGE_UP    &trans    &mmv MOVE_DOWN   &kp PG_UP       &kp END          &kp UP            &kp HOME           &kp EQUAL  &kp PLUS
+&trans   &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &trans    &mmv MOVE_LEFT   &kp PG_DN       &kp LEFT         &kp DOWN          &kp RIGHT          &kp MINUS  &kp UNDERSCORE
+&trans   &trans  &kp END   &trans          &kp PAGE_DOWN  &trans    &mmv MOVE_RIGHT  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans     &trans
+&trans   &trans  &trans    &trans          &trans         &trans    &mkp LCLK        &trans          &trans           &trans            &trans             &trans
             >;
 
             display-name = "EXTENDED";
@@ -107,7 +107,7 @@
 &trans           &trans           &trans           &trans           &trans           &bootloader        &trans  &bootloader  &trans        &trans  &trans  &trans
             >;
 
-            display-name = "SETTING";
+            display-name = "CONTROL";
             sensor-bindings = <&scroll_encoder>;
         };
     };
