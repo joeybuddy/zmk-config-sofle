@@ -29,7 +29,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
-  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - S
   - D
   - F
   - G
@@ -37,7 +37,7 @@ layers:
   - H
   - J
   - K
-  - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
+  - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
