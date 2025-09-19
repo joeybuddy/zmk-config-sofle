@@ -57,7 +57,7 @@ layers:
   - NUMBER
   - $$mdi:apple-keyboard-option$$
   - LGUI
-  - EXTENDED
+  - {t: '$$mdi:keyboard-space$$', h: EXTENDED}
   - '4'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
