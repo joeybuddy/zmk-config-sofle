@@ -30,6 +30,10 @@
 };
 
 &lt {
+    retro-tap;
+    flavor = "balanced";
+    tapping-term-ms = <120>;
+    require-prior-idle-ms = <75>;
 };
 
 / {
