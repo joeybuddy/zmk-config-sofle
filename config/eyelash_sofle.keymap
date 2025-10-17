@@ -60,6 +60,22 @@
     behaviors {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        dash-io {
+            bindings = <&none>;
+            key-positions = <22 23>;
+            layers = <0>;
+        };
+
+        equal-kl {
+            bindings = <&none>;
+            key-positions = <35 36>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
