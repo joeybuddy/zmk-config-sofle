@@ -57,9 +57,6 @@
 <svg id="mdi:menu-up">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-menu-up" viewBox="0 0 24 24"><path d="M7,15L12,10L17,15H7Z" /></svg>
 </svg>
-<svg id="mdi:minus-circle-outline">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-minus-circle-outline" viewBox="0 0 24 24"><path d="M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7,13H17V11H7" /></svg>
-</svg>
 <svg id="mdi:mouse">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-mouse" viewBox="0 0 24 24"><path d="M11,1.07C7.05,1.56 4,4.92 4,9H11M4,15A8,8 0 0,0 12,23A8,8 0 0,0 20,15V11H4M13,1.07V9H20C20,4.92 16.94,1.56 13,1.07Z" /></svg>
 </svg>
@@ -634,13 +631,15 @@ rect.held, rect.combo.held {
 <a href="#CONTROL">
 <text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">CONTROL</tspan></text>
 </a></g>
-<g class="combo none combopos-0">
-<rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="747" y="78" height="18" width="18.0" class="combo none tap glyph mdi:minus-circle-outline"/>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
+<text x="756" y="88" class="combo tap">-</text>
+<text x="756" y="76" class="combo shifted">_</text>
 </g>
-<g class="combo none combopos-1">
-<rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="747" y="134" height="18" width="18.0" class="combo none tap glyph mdi:minus-circle-outline"/>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo"/>
+<text x="756" y="144" class="combo tap">=</text>
+<text x="756" y="132" class="combo shifted">+</text>
 </g>
 </g>
 </g>

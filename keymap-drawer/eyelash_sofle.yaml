@@ -327,8 +327,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [22, 23]
-  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+  k: {t: '-', s: _}
   l: [BASE]
 - p: [35, 36]
-  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+  k: {t: '=', s: +}
   l: [BASE]
