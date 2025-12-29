@@ -122,10 +122,10 @@
 
         layer_3 {
             bindings = <
-&out OUT_TOG     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &trans  &trans       &trans        &trans  &trans  &bt BT_CLR_ALL  &bt BT_CLR
-&rgb_ug RGB_TOG  &rgb_ug RGB_EFR  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI    &trans  &trans       &out OUT_USB  &trans  &trans  &trans          &trans
-&trans           &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD    &trans  &trans       &trans        &trans  &trans  &trans          &trans
-&soft_off        &trans           &trans           &trans           &trans           &out OUT_BLE       &trans  &trans       &trans        &trans  &trans  &trans          &soft_off
+&out OUT_TOG     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &trans  &trans       &trans        &trans  &trans  &trans  &bt BT_CLR
+&rgb_ug RGB_TOG  &rgb_ug RGB_EFR  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI    &trans  &trans       &out OUT_USB  &trans  &trans  &trans  &trans
+&trans           &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD    &trans  &trans       &trans        &trans  &trans  &trans  &trans
+&soft_off        &trans           &trans           &trans           &trans           &out OUT_BLE       &trans  &trans       &trans        &trans  &trans  &trans  &soft_off
 &trans           &trans           &trans           &trans           &trans           &bootloader        &trans  &bootloader  &trans        &trans  &trans  &trans
             >;
 
